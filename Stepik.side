@@ -1,0 +1,885 @@
+{
+  "id": "a946e43d-2734-4c7a-84a4-5a5077532372",
+  "version": "2.0",
+  "name": "Stepik",
+  "url": "https://stepik.org",
+  "tests": [{
+    "id": "eb324e94-19b1-48b8-a0aa-13728bd224be",
+    "name": "Register",
+    "commands": [{
+      "id": "10923b6f-cdb2-4d2c-9380-12658a25ee90",
+      "comment": "",
+      "command": "open",
+      "target": "/teach/courses",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffafac43-a196-498f-bbba-d2e33eb89269",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71e39174-1f40-4e55-9d2d-4d8c99b5addb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar__profile-img",
+      "targets": [
+        ["css=.navbar__profile-img", "css:finder"],
+        ["xpath=//img[@alt='User avatar']", "xpath:img"],
+        ["xpath=//div[@id='ember35']/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f852fc96-7991-4ad7-81a7-aad7518e1491",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Выход')]",
+      "targets": [
+        ["css=.menu-item:nth-child(6) > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//ul[@id='ember164']/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Выход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee128a12-5337-46d3-85ff-2253c5362c8c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'OK')]",
+      "targets": [
+        ["css=#ember172 > button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//footer[@id='ember172']/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "876fe771-2e08-4286-b796-f357741eb617",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_login_email",
+      "targets": [
+        ["id=id_login_email", "id"],
+        ["name=login", "name"],
+        ["css=#id_login_email", "css:finder"],
+        ["xpath=//input[@id='id_login_email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "albinos55522@gmail.com"
+    }, {
+      "id": "e1cd2ee5-a55b-4a3d-8478-485f0c86af22",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_login_password",
+      "targets": [
+        ["id=id_login_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_login_password", "css:finder"],
+        ["xpath=//input[@id='id_login_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1234fkz1234"
+    }, {
+      "id": "147dbef4-c2fb-4f0e-a0b3-c030a7e68625",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["id=ember120", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=#ember120", "css:finder"],
+        ["xpath=//a[@id='ember120']", "xpath:attributes"],
+        ["xpath=//div[@id='ember118']/header/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/teach/courses?auth=registration')])[2]", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1009f6a1-78a3-44bc-84d1-41f8030000af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-google > img",
+      "targets": [
+        ["css=.btn-google > img", "css:finder"],
+        ["xpath=//img[@alt='Google']", "xpath:img"],
+        ["xpath=//div[@id='ember125']/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1635b58a-3d2a-4f61-9ec8-297dab8cc23d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar__logo",
+      "targets": [
+        ["css=.navbar__logo", "css:finder"],
+        ["xpath=//img[@alt='Stepik']", "xpath:img"],
+        ["xpath=//a[@id='ember18']/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce66dc0a-90ac-49d1-beef-ae5b5552d61f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3b5e44a5-db59-4847-9757-805856b6ba09",
+    "name": "Login",
+    "commands": [{
+      "id": "276db8dc-cd7f-463e-a716-b70f62edd92c",
+      "comment": "",
+      "command": "open",
+      "target": "/teach/courses",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa47dadf-d72f-48ae-9473-280f2f7a5493",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e55ae69-552a-46eb-8ba0-5026109e705c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar__profile-img",
+      "targets": [
+        ["css=.navbar__profile-img", "css:finder"],
+        ["xpath=//img[@alt='User avatar']", "xpath:img"],
+        ["xpath=//div[@id='ember35']/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f30b57a-ae17-40b6-8551-5b4233943768",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Выход')]",
+      "targets": [
+        ["css=.menu-item:nth-child(6) > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//ul[@id='ember164']/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Выход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1df0362-cee0-407b-8f13-fa3e62291c3c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'OK')]",
+      "targets": [
+        ["css=#ember172 > button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//footer[@id='ember172']/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e50f142-3d42-4cc0-a15b-0445bddc55a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_login_email",
+      "targets": [
+        ["id=id_login_email", "id"],
+        ["name=login", "name"],
+        ["css=#id_login_email", "css:finder"],
+        ["xpath=//input[@id='id_login_email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "albinos55522@gmail.com"
+    }, {
+      "id": "72cfc48e-ffc5-41b5-9d99-28a2ded699a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_login_password",
+      "targets": [
+        ["id=id_login_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_login_password", "css:finder"],
+        ["xpath=//input[@id='id_login_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1234fkz1234"
+    }, {
+      "id": "0afde4c6-b13b-4ec4-86ee-7298bc72637c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Войти')]",
+      "targets": [
+        ["css=.sign-form__btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3330a1e-81a1-4a56-a72f-b84de24b7ca4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar__logo",
+      "targets": [
+        ["css=.navbar__logo", "css:finder"],
+        ["xpath=//img[@alt='Stepik']", "xpath:img"],
+        ["xpath=//a[@id='ember18']/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85dfd557-a6f6-4016-8b6d-16f8b1d79fda",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "063e034c-84b5-4bcd-abc4-0e4a5a56a5cd",
+    "name": "test_search_curse",
+    "commands": [{
+      "id": "1026b9fc-ced5-4afa-aba0-e99212fa5d82",
+      "comment": "",
+      "command": "open",
+      "target": "/catalog",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83a765d1-5599-4e69-8ceb-ef71a781364e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd0e6e0d-0a0a-43d0-bd9e-eeb1a1b9b5f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-form__input",
+      "targets": [
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ember40']/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79590158-8a38-454e-8fcd-9e0de246f2e2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-form__input",
+      "targets": [
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ember40']/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Математика"
+    }, {
+      "id": "aa0b8216-d276-46bb-a1dd-76414dc59db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_with-loader",
+      "targets": [
+        ["css=.button_with-loader", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='ember37']/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Искать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a1a00e-8059-4115-93dd-2a086a27cce6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c4e3f073-c049-4227-8162-b2c604122c36",
+    "name": "test_pass_curse",
+    "commands": [{
+      "id": "c08ddeb9-873c-4f87-95c1-95141d8d77ed",
+      "comment": "",
+      "command": "open",
+      "target": "/learn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46652587-6b34-4034-832f-3b3f41634231",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a395fa4-3777-40d1-b645-7a4818447a87",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember159",
+      "targets": [
+        ["id=ember159", "id"],
+        ["linkText=Каталог", "linkText"],
+        ["css=#ember159", "css:finder"],
+        ["xpath=//a[@id='ember159']", "xpath:attributes"],
+        ["xpath=//nav[@id='main-navbar']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7bae869-053c-4f67-bd10-7e09d7dc7e85",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fab5626b-9180-47f9-b458-be8e9d655d09",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember453 .tab__item:nth-child(2) > button",
+      "targets": [
+        ["css=#ember453 .tab__item:nth-child(2) > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='ember453']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Хиты Stepik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7ba2d82-cef2-4e59-a837-29e386bb77a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=\"Поколение Python\": курс для начинающих",
+      "targets": [
+        ["linkText=\"Поколение Python\": курс для начинающих", "linkText"],
+        ["css=#ember484 > .course-card__title", "css:finder"],
+        ["xpath=//div[@id='ember484']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/course/58852')])[2]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/ul/li/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'\"Поколение Python\": курс для начинающих')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f92f14d-cb4e-41ae-9e22-03c0d1e39f79",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf4df25c-e9ea-44a8-b380-b5d7ee183b23",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//aside/div/div/div/div/button",
+      "targets": [
+        ["css=#ember1257 > .button", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='ember1257']/button", "xpath:idRelative"],
+        ["xpath=//aside/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68cd7c4a-8fe8-4f61-886a-57ffe9e087d0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ce02b5f0-dcbc-4ebe-85dc-fa79f429cf68",
+    "name": "test_save_curse",
+    "commands": [{
+      "id": "8ac31339-653c-47d7-ac87-7949a0560fce",
+      "comment": "",
+      "command": "open",
+      "target": "/learn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2f6cb14-883f-4ba7-9ccf-7c6590548aff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1c5fbbf-64a3-4af6-9a48-afa9fce9942a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember159",
+      "targets": [
+        ["id=ember159", "id"],
+        ["linkText=Каталог", "linkText"],
+        ["css=#ember159", "css:finder"],
+        ["xpath=//a[@id='ember159']", "xpath:attributes"],
+        ["xpath=//nav[@id='main-navbar']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd099ec9-67a7-42b4-b49a-11df78e5071e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[13]",
+      "targets": [
+        ["css=#ember453 .tab__item:nth-child(2) > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='ember453']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Хиты Stepik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54517e3f-7e8f-4e47-af48-7aa29dd09fd8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,102)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1ce9049-9f24-477a-977a-013be4ff858a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=\"Поколение Python\": курс для продвинутых",
+      "targets": [
+        ["linkText=\"Поколение Python\": курс для продвинутых", "linkText"],
+        ["css=#ember486 > .course-card__title", "css:finder"],
+        ["xpath=//div[@id='ember486']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/course/68343')])[2]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/ul/li[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'\"Поколение Python\": курс для продвинутых')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e8f2f40-9f9a-4b9d-92ae-f4877648c856",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d817ffc-cf45-4afc-a20d-b73b7d2d5aa7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Хочу пройти')]",
+      "targets": [
+        ["css=.has-icon:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='ember1257']/div/button", "xpath:idRelative"],
+        ["xpath=//aside/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Хочу пройти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10c619f3-2098-4419-b5ac-b50ddf7762c6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "08b019eb-2b27-47ee-9ad9-8c8d98cb96b7",
+    "name": "test_pass_lesson",
+    "commands": [{
+      "id": "85d28fa7-5e49-48ff-bd52-39f5abad797a",
+      "comment": "",
+      "command": "open",
+      "target": "/learn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e4750dd-0d7f-4026-ae44-fadb17e2a5cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1823db0-3499-4f6f-8707-ab9943cf94c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.marketing-banner__img",
+      "targets": [
+        ["css=.marketing-banner__img", "css:finder"],
+        ["xpath=//img[@alt='Gift banner']", "xpath:img"],
+        ["xpath=//a[@id='marketing-banner-ember213']/picture/img", "xpath:idRelative"],
+        ["xpath=//article/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f5154c-1fe3-45d2-b072-f4ed1a498d91",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Продолжить')]",
+      "targets": [
+        ["css=.lfcc__continue-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cc695e9-96e1-4e07-9bfd-62155338b9fb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b39c993b-40eb-48c3-8858-e342ed82a587",
+    "name": "test_get_olympia",
+    "commands": [{
+      "id": "bd71fe23-b92c-405e-b415-a6ba198f6fac",
+      "comment": "",
+      "command": "open",
+      "target": "/course/107815/syllabus",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "903c9755-26b6-48bf-bafe-b31be24688ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "175596f9-cc6c-4678-805c-d6d3be55f687",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='ember48']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e09dab-2c28-4af9-877a-6f7664e354d3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b0f333c2-ed3d-458b-ac7a-1eea29eb24f8",
+    "name": "test_get_sertificate",
+    "commands": [{
+      "id": "f50f360c-fdd4-4df9-9469-5f7de75016ee",
+      "comment": "",
+      "command": "open",
+      "target": "/learn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc0bde3f-4153-4fd7-bbb2-67788c46b14b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa5d4f5e-153d-4333-91fe-819dc3619de2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar__profile-img",
+      "targets": [
+        ["css=.navbar__profile-img", "css:finder"],
+        ["xpath=//img[@alt='User avatar']", "xpath:img"],
+        ["xpath=//div[@id='ember174']/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ddf461-ff2c-473a-93aa-c33b23129dba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Профиль",
+      "targets": [
+        ["id=ember419", "id"],
+        ["linkText=Профиль", "linkText"],
+        ["css=#ember419", "css:finder"],
+        ["xpath=//a[@id='ember419']", "xpath:attributes"],
+        ["xpath=//ul[@id='ember418']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/users/116125341/profile')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Профиль')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e54b24d2-51a7-4643-9e37-fccd5c5fb5ec",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a/div/div",
+      "targets": [
+        ["css=.cert-widget__title", "css:finder"],
+        ["xpath=//a[@id='ember470']/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "835dab6d-4f55-4100-bdd9-b0c241c10ea4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4c306b8c-988a-46a6-8e38-34664497e6d6",
+    "name": "test_create_curse",
+    "commands": [{
+      "id": "5edcfd5c-11b8-49ce-920f-7c53e346a7c5",
+      "comment": "",
+      "command": "open",
+      "target": "/teach/courses",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e87c276-67ba-474b-8625-b7dda8a575b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07a47061-13ca-4602-be5a-5c31a26b1f16",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Новый курс')]",
+      "targets": [
+        ["css=#ember38 > span:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='ember38']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Новый курс')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dd4cb34-e220-4575-a1d6-6ec9dafc72f9",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//label/div/input",
+      "targets": [
+        ["id=ember174", "id"],
+        ["css=#ember174", "css:finder"],
+        ["xpath=//input[@id='ember174']", "xpath:attributes"],
+        ["xpath=//div[@id='ember173']/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "sdsdsss"
+    }, {
+      "id": "c8b517e8-5591-46dd-8613-ee34bc340eea",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Создать курс')]",
+      "targets": [
+        ["id=ember176", "id"],
+        ["css=#ember176", "css:finder"],
+        ["xpath=//button[@id='ember176']", "xpath:attributes"],
+        ["xpath=//form[@id='ember171']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Создать курс')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a2e665-aa86-4cf9-a03e-954b4a205ce1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item:nth-child(1) .menu-item:nth-child(1) span",
+      "targets": [
+        ["css=.menu-item:nth-child(1) .menu-item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='ember192']/ul/li/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Описание')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d5115b-72e0-40b6-828c-c14126782efa",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fc9abe16-cc70-488d-a854-0a51d301a398",
+    "name": "test_create_lesson",
+    "commands": [{
+      "id": "01692218-25a9-4898-875d-470dab0f976d",
+      "comment": "",
+      "command": "open",
+      "target": "/teach/courses",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ec7ab2c-8079-4e48-ab7d-43b43f9b6e3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cde01680-df29-4909-b4aa-07c8987f4827",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=sdsdsss",
+      "targets": [
+        ["linkText=sdsdsss", "linkText"],
+        ["css=.item-tile:nth-child(2) .item-tile__title-link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/course/193186')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'sdsdsss')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b636ca51-ad87-4f01-ac22-6e9f97165fab",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Редактировать содержание')]",
+      "targets": [
+        ["id=ember379", "id"],
+        ["linkText=Редактировать содержание", "linkText"],
+        ["css=#ember379", "css:finder"],
+        ["xpath=//a[contains(text(),'Редактировать содержание')]", "xpath:link"],
+        ["xpath=//a[@id='ember379']", "xpath:attributes"],
+        ["xpath=//div[@id='ember378']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/course/193186/edit')])[8]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Редактировать содержание')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a96365b-8736-40fc-8e26-58414981af40",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Новый модуль')]",
+      "targets": [
+        ["css=.syllabus-editor__create", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='ember410']/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Новый модуль')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d4e5008-0c70-4131-b80a-36a2c44ac77a",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/div/div/input",
+      "targets": [
+        ["id=ember445", "id"],
+        ["css=#ember445", "css:finder"],
+        ["xpath=//input[@id='ember445']", "xpath:attributes"],
+        ["xpath=//div[@id='ember444']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "sdsd"
+    }, {
+      "id": "1f427e18-147b-4642-ba3f-e5d0a6dfc3ff",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Создать урок')]",
+      "targets": [
+        ["css=.new-unit__btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='ember443']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Создать урок')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac2219c6-97c6-4cfc-9da3-62fb6c9c1d2d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Сохранить')]",
+      "targets": [
+        ["css=.course-editor__save-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//span[@id='ember422']/div/div/button", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff69b4aa-8423-4478-b1b3-c64f708fd835",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Курс')]",
+      "targets": [
+        ["css=.menu-item:nth-child(1) > .nav-menu__menu-toggler", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='ember260']/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Курс')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a73703d1-6009-4c6c-9ff1-c6f04353a595",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Содержание')]",
+      "targets": [
+        ["css=.menu-item:nth-child(1) .menu-item:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='ember260']/ul/li/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Содержание')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e83f299-be2a-42e8-a1ed-3a6fe240d678",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div[2]/div/a",
+      "targets": [
+        ["css=.lesson-widget__title-text", "css:finder"],
+        ["xpath=//div[@id='ember609']/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lesson/1185769/step/1?unit=1198415')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "354a0746-2a70-483f-a320-d5d9a34dbc49",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5a258ac9-ec8f-4e0f-9e03-c2ec19c757f4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb324e94-19b1-48b8-a0aa-13728bd224be"]
+  }],
+  "urls": ["https://stepik.org/"],
+  "plugins": []
+}
